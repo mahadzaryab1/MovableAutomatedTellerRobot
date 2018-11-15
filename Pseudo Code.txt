@@ -6,6 +6,18 @@ void withdrawMoney();
 void depositMoney();
 account readCard();
 
+
+Port Configurations:
+Sensors:
+	1 - Card TOUCH reader
+	2 - Card COLOUR reader
+	3 - Deposit COLOUR reader
+Motors:
+	A - Motor Encoder Wheel
+	B - Cash Dispenser
+
+
+
 Account Struct: 
 
 // Makes people with accounts, that each have 
