@@ -1,0 +1,55 @@
+void getPinEntered (tMotor port, int pinDigit, int pin[PIN_SIZE]);
+void displayTempPin(int pinValue, int digitsAlreadyEntered);
+void configureSensors();
+bool comparePins(int pinCorrect[PIN_SIZE], int userPin[PIN_SIZE]);
+void withdrawMoney();
+void depositMoney();
+account readCard();
+
+Account Struct: 
+
+// Makes people with accounts, that each have 
+task main(){
+
+	while(button!pressed)
+		while (!inserted){}
+		while (inserted) {
+
+		}
+	/* Runs while 3 incorrect pins have not been entered, or the user has not pressed the power button 
+	*/
+}
+
+account readCard(){
+	/* Gets the colour sensor value and ensures the touch sensor is pressed down, determines which user is associated with the colour
+	of the card inserted (There exists an array of accounts each with a colour/RGB value associated to the object). This account is
+	returned and stored in main so that all further transactions that occur impact this account, until the user logs out (implemented in main)  */
+}
+
+void withdrawMoney(){
+	/* First gets amount user wants to withdraw, this will be implemented by the up button representing increases in $10,
+	the down button representing a decrement by $10 (Prevents user from entering negative values), waits for user to press
+	center button to confirm their withdraw amount, then turns motors on to */
+}
+
+void depositMoney(){
+	/* Detects colour of bill inserted into depositing compartment; determines the value of said bills and then adds the
+		value to the respective account */
+}
+
+void configureSensors(){
+	// Configures Sensors at start up
+}
+
+void getPinEntered (tMotor port, int pinDigit, int pin[PIN_SIZE]){
+	/* Takes in motor port, the index of the pin code and an array (pin) pin and gets
+	the value a user enters */
+}
+
+void displayTempPin(int pinValue, int digitsAlreadyEntered){
+	// Displays the current value of the motor encoder (the pin number) to the EV3 display
+}
+
+bool comparePins(int pinCorrect[PIN_SIZE], int userPin[PIN_SIZE]){
+	// Compares two arrays and checks if they are equal by comparing every corresponding elements (Parallel Arrays)
+}
