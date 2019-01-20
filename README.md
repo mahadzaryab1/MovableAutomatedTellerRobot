@@ -1,4 +1,4 @@
-# About the Movable Automated Teller Robot
+# Purpose
 
 The Movable Automated Teller Robot(ATM) was made as part of an engineering design project.  
 The project tackled a soution to an existing problem using a Lego EV3 kit and Tetrix.
